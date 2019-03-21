@@ -4,4 +4,7 @@ redux moves scope from component to application
 rcc tab CLASS BASED COMPONENT
 rfc tab FUNCTIONAL COMPONENT
 
-npm install redux react-redux 
+npm install redux react-redux redux-thunk
+
+
+To add a new post functionality, we just added the action, we sent the type and the payload to the reducer and the reducer we decided how we wanted our state to come down, and we just wanted that single item to get added to our state, then it reflected inside the post component.
