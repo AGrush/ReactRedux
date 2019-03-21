@@ -1,0 +1,5 @@
+redux moves scope from component to application
+
+
+rcc tab CLASS BASED COMPONENT
+rfc tab FUNCTIONAL COMPONENT

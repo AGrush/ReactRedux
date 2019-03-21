@@ -1,0 +1,10 @@
+h1 {
+  font-size: 14px;
+}
+p {
+  font-size: 10px;
+}
+body {
+  padding: 50px;
+  background-color: grey;
+}
