@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 // we also have an action that we want to call.. fetchPosts so we bring that in
 import { fetchPosts } from "../actions/postActions";
-//we add our props to proptypes
+//whenever you have component properties you should put them inside of prop types,  which is a form of validation for the type of the prop.
 import PropTypes from "prop-types";
 
 class Posts extends Component {
@@ -53,6 +53,7 @@ class Posts extends Component {
 }
 
 //we should add our props to proptypes (not crucial)
+//whenever you have component properties you should put them inside of prop types,  which is a form of validation for the type of the prop, we also add isRequired.
 Posts.propTypes = {
   //fetch posts function is actually a property
   fetchPosts: PropTypes.func.isRequired,

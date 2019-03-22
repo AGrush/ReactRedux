@@ -1,5 +1,7 @@
 import React, { Component } from "react";
+//whenever you have component properties you should put them inside of prop types,  which is a form of validation for the type of the prop.
 import PropTypes from "prop-types";
+//connect allows us to get state from redux into a react component, when we use connect we have to export default connect(mapStateToProps, {any actions we wanna use})(Original Class)
 import { connect } from "react-redux";
 import { createPost } from "../actions/postActions";
 class PostForm extends Component {
@@ -61,6 +63,7 @@ class PostForm extends Component {
   }
 }
 
+//whenever you have component properties you should put them inside of prop types,  which is a form of validation for the type of the prop. We also add isRequired.
 PostForm.propTypes = {
   createPost: PropTypes.func.isRequired
 };
