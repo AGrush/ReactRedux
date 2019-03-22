@@ -1,5 +1,6 @@
 {
   "name": "redux1",
+  "homepage": "https://agwebdesign.net/react/basicredux",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
